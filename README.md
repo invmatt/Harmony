@@ -1,4 +1,4 @@
-<img src="https://raw.github.com/invmatt/Harmony/master/screenshot.png"> alt="Harmony" />
+<img src="https://raw.github.com/invmatt/Harmony/master/screenshot.png"> alt="Harmony">
 
 <h3>A Lightweight Development Theme for WordPress</h3>
 
