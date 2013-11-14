@@ -1,0 +1,255 @@
+/* ========================
+	Cube Press CSS
+======================== */
+
+/*-----AUTO CLEARFIX-----*/
+
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .clearfix { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+.cube_section{
+	margin: 20px;
+	width:740px;
+	border:1px solid #ddd;
+	border-bottom:0;
+	background:#fafafa;
+	-moz-border-radius:2px;
+	-moz-border-radius-topright:25px;
+	-moz-border-radius-topleft:25px;
+	-webkit-border-radius:2px;
+	-webkit-border-top-right-radius:25px;
+	-webkit-border-top-left-radius:25px;
+	-moz-box-shadow: 0 0 3px #dfdfdf;
+	-webkit-box-shadow: 0 0 3px #dfdfdf;
+	box-shadow: 0 0 3px #dfdfdf;
+
+}
+
+.toplevel_page_general-options .wp-menu-image > img, #adminmenu .wp-menu-image img {
+    width: 16px;
+}
+
+/*-----//AUTO CLEARFIX-----*/
+
+/*-----TITLE-----*/
+
+.cube_title{
+	border-bottom:8px solid #777;
+	background:#EEE url(../img/bg-light.png);
+	padding:0;
+	-moz-border-radius-topright:25px;
+	-moz-border-radius-topleft:25px;
+	-webkit-border-top-right-radius:25px;
+	-webkit-border-top-left-radius:25px;
+}
+.cube_title .cube_title_image{
+	padding:20px 10px;}
+	
+	.cube_title_image img{
+		float:left;
+    	max-width: 250px;
+	}
+	.cube_meta{
+		font-size:12px;
+		font-weight:700;
+		text-shadow: 1px 1px -1px #FFF;
+		float:right;
+		text-transform:uppercase;
+		padding:2px 10px;
+	}
+		.cube_meta a{text-decoration:none;}
+	
+	
+.cube_title h3 {
+	font-size:1.4em;
+	margin:0;
+	font-weight:bold;
+	color:#333;
+	float:left;
+	width:80%;
+	padding:5px 10px;
+	text-shadow: 1px 1px -1px #FFF;
+}
+
+
+.cube_title span.submit{
+	display:block;
+	float:right;
+	margin:0;
+	padding:0;
+	width:15%;
+	padding:14px 0;
+}
+
+/*-----//TITLE-----*/
+
+
+/*-----LABELS AND DESCRIPTIONS-----*/
+
+.cube_options div.label{
+	padding: 20px; 
+	font-size:12px;
+	font-weight:700;
+	width:130px;
+	float:left;
+	margin: 20px 0;
+}
+
+.cube_options div.description{
+	display:block;
+	float:right;
+	width:180px;
+	color:#999;
+	font-size:11px;
+	padding:35px 20px 35px 0;
+}
+
+.cube_options label{
+	font-size:11px;
+	font-weight:700;
+	margin-left:3px;
+}
+
+/*-----//LABELS AND DESCRIPTIONS-----*/
+
+
+/*-----OPTIONS GROUPS-----*/
+
+.option_wrap{
+	float: left; 
+	background-color: #fff; 
+	color: #464646; 
+	width: 570px;
+	padding:0; 
+	margin:0;
+}
+.option_control{
+	width: 330px; 
+	float: left;
+	padding: 35px 20px;
+}	
+
+/*-----//OPTIONS GROUPS-----*/
+
+
+/*-----INPUT STYLES-----*/
+
+.cube_input {
+	padding:0;
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #fff;
+}
+.cube_options input[type="text"], .cube_options select{
+	width:280px;
+	font-size:12px;
+	padding:4px;
+	color:#333;
+	line-height:1em;
+	background:#f3f3f3;
+}
+
+.cube_options input[type="radio"], .cube_options input[type="checkbox"]{	
+	margin: 2px 0 0 0;
+}
+
+.cube_options textarea{
+	width:280px;
+	height:175px;
+	font-size:12px;
+	color:#333;
+	line-height:1.5em;
+	background:#f3f3f3;
+}
+.cube_options input:focus, .cube_options textarea:focus, .cube_options select:focus{
+	background:#fff;
+}
+
+span.cube_upload, span.cube_remove{
+	display:inline-block;
+	width:auto;
+}
+.checkbox-nav{
+	float:left;
+	margin:0 6px 10px 0;
+	width:106px;
+}
+
+.checkbox-nav label{
+	font-weight:400;
+}
+
+.last{
+	margin-right:0; 
+}
+
+.cube_image_preview img{
+	max-width:200px;
+	padding:4px;
+}
+
+span.cube_upload, span.cube_remove{
+	display:inline-block;
+	width:auto;
+}
+
+.cube_htmldisplayblock .option_wrap {
+	background: url("../img/bg-light.png") repeat scroll 0 0 #EEEEEE;
+	border-bottom: 1px solid $darkGrey;
+	padding-bottom: 10px;
+    width: 100%;
+}
+
+.cube_htmldisplayblock .option_wrap p, .cube_htmldisplayblock .option_wrap h4, .cube_htmldisplayblock .option_wrap h5{
+	padding-left: 2em;
+}
+
+/*-----//INPUT STYLES-----*/
+
+/*-----SLIDER CONTROL STYLES-----*/
+.cube_slider{
+	width:950px;
+	margin:25px;
+}
+
+.cube_slider label{
+	width:100px;
+	float:left;
+	margin:3px 0;
+}
+
+.cube_slider textarea {
+height:105px;
+}
+
+/*-----//SLIDER CONTROL STYLES-----*/
+
+/*-----CUBIK META BOX-----*/
+[id^="cube-meta"] .inside {
+	background: url("../img/bg-light.png") repeat scroll 0 0 #EEEEEE;
+}
+/* CUBIK META TEXT */
+#cube-meta-box textarea {
+    max-width: 95%;
+    min-width: 95%;
+    width: 95%;
+}
+[class^="cube_meta_home_cs"] {
+    display: inline-block;
+    min-width: 300px;
+    width: auto;
+}
+
+/* CUBIK META IMAGE */
+.cube-meta-image-preview {
+	border: 1px solid $darkGrey;
+	border-radius: 20px;
+    max-height: 300px;
+    max-width: 300px;
+    overflow: hidden;
+}
+.cube-meta-image-preview img {
+	margin-bottom: -8px;
+	width: 100%;
+}
+/*-----//CUBIK META BOX-----*/
