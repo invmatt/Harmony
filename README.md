@@ -13,6 +13,11 @@ additional un-needed markup</p>
 </ul>
 
 <h4>Changelog:</h4>
-
-<h5>v1.0.0</h5>
-<p>Initial release</p>
+<ul>
+  <li>
+    v1.0.0
+    <ul>
+      <li>Initial release</li>
+    </ul>
+  </li>
+</ul>
