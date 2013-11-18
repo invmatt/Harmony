@@ -1,16 +1,16 @@
 <?php
-	function wphub_register_settings() {
+	function harmony_register_settings() {
 		add_option( 'harmony_google_analytics', '1');
 		register_setting( 'default', 'harmony_google_analytics' ); 
 	} 
-	add_action( 'admin_init', 'wphub_register_settings' );
+	add_action( 'admin_init', 'harmony_register_settings' );
 	 
-	function wphub_register_options_page() {
-		add_options_page('Page title', 'Theme Options', 'manage_options', 'wphub-options', 'wphub_options_page');
+	function harmony_register_options_page() {
+		add_options_page('Page title', 'Theme Options', 'manage_options', 'harmony-options', 'harmony_options_page');
 	}
-	add_action('admin_menu', 'wphub_register_options_page');
+	add_action('admin_menu', 'harmony_register_options_page');
 	 
-	function wphub_options_page() {
+	function harmony_options_page() {
 ?>
 
 		<div class="wrap">
