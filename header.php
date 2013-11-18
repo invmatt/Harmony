@@ -30,7 +30,9 @@
 
 			<header class="header" role="banner">
 
-				<p id="logo" class="h1 logo"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
+				<a href="<?php echo home_url(); ?>" rel="nofollow" title="Return to homepage" class="site-logo">
+					<img class="s s-logo" alt="<?php bloginfo('name'); ?>" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+				</a>
 
 				<nav role="navigation">
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'depth' => 1, 'container_class' => '', 'container_id' => 'main-nav' ) ); ?>
