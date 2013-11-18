@@ -30,6 +30,7 @@
 		require_once (HARMONY_FUNCTIONS . 'admin-helper.php');
 		require_once( HARMONY_FUNCTIONS . 'customMetaBox/custom-meta-boxes.php' );
 		require_once (HARMONY_FUNCTIONS . 'include-metaboxes.php');
+		require_once (HARMONY_FUNCTIONS . 'admin-theme-helper.php');
 	endif;
 
 	add_action('admin_head', 'harmony_admin_head');
