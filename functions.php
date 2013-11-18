@@ -29,7 +29,7 @@
 	if (is_admin()) :
 		require_once (HARMONY_FUNCTIONS . 'admin-helper.php');
 		require_once( HARMONY_FUNCTIONS . 'customMetaBox/custom-meta-boxes.php' );
-		require_once (HARMONY_INCLUDES . 'include-metaboxes.php');
+		require_once (HARMONY_FUNCTIONS . 'include-metaboxes.php');
 	endif;
 
 	add_action('admin_head', 'harmony_admin_head');
