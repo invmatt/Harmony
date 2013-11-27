@@ -4,7 +4,6 @@
 
                 <h2><?php _e('Search Results','harmony'); ?></h2>
 
-                <?php post_navigation(); ?>
 
                 <?php while (have_posts()) : the_post(); ?>
 
@@ -12,7 +11,6 @@
 
                                 <h2><?php the_title(); ?></h2>
 
-                                <?php posted_on(); ?>
 
                                 <div class="entry">
 
@@ -23,8 +21,6 @@
                         </article>
 
                 <?php endwhile; ?>
-
-                <?php post_navigation(); ?>
 
         <?php else : ?>
 
