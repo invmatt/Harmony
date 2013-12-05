@@ -7,49 +7,37 @@ Author URI: https://github.com/invmatt
 Version: 1.0
 */
 
-/**
- * www.KNACSS.com V2.9 @author: Raphael Goetter, Alsacreations
- * Licence CC-BY http://creativecommons.org/licenses/by/3.0/fr/
- * 
- * Sass version maintained by @HugoGiraudel
- * https://github.com/HugoGiraudel/KNACSS-Sass
- */
 
-/** 
- * 1. Enable support for old browsers (IE8-, Firefox 3.6)
- * 2. Enable print stylesheet
- * 3. Gutter value for grid layouts
- * 4. Base font size: must be unitless
- * 5. Font stacks
- */
-$legacy-support-for-ie: true 		!default; /* 1 */
-$legacy-support-for-mozilla: true 	!default; /* 1 */
+$gridsize: 	940px;
 
-$print-stylesheet: true 			!default; /* 2 */
+$legacy-support-for-ie: true 		!default;
+$legacy-support-for-mozilla: true 	!default;
 
-$gutter: 20px						!default; /* 3 */
+$print-stylesheet: true 			!default;
 
-$base-font-size: 14 				!default; /* 4 */
+$gutter: 20px						!default;
 
-$regular-font-stack: "Helvetica", "Arial", sans-serif; /* 5 */
-$monospace-font-stack: "Consolas", "DejaVu Sans Mono", "Courier", monospace; /* 5 */
+$base-font-size: 14 				!default;
 
-@import "helpers/mixins";          // Sass only
-@import "helpers/reset";           // Home made reset
-@import "helpers/spacing-helpers"; // A couple of spacing-related helper classes
-@import "helpers/layout-helpers";  // A couple of layout-related helper classes and Sass placeholder 
-@import "helpers/block-helpers";   // A couple of block-related helper classes
+$regular-font-stack: "Helvetica", "Arial", sans-serif;
+$monospace-font-stack: "Consolas", "DejaVu Sans Mono", "Courier", monospace;
 
-@import "modules/grids";           // Small grid system
-@import "modules/tables";          // Tables
-@import "modules/forms";           // Forms
-@import "modules/icons";           // Icons (unicode based) and bullets
-@import "modules/messages";        // Message system
-@import "modules/layout";          // Layout
-@import "modules/flexbox";         // Flexbox helpers
-@import "modules/typography";      // Typography baseline and vertical rythm
+@import "helpers/mixins";
+@import "helpers/reset";
+@import "helpers/spacing-helpers";
+@import "helpers/layout-helpers";
+@import "helpers/block-helpers";
 
-@import "partials/iefix";          // Some IE fixes
-@import "partials/print";          // Print stylesheet
+@import "modules/grids";
+@import "modules/tables";
+@import "modules/forms";
+@import "modules/icons";
+@import "modules/messages";
+@import "modules/layout";
+@import "modules/flexbox";
+@import "modules/typography";
+
+@import "partials/iefix";
+@import "partials/print";
 
 // UI imports should be added below.
