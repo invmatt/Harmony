@@ -95,6 +95,9 @@ img, table, td,
 blockquote, code, pre, 
 textarea, input, video {
   max-width: 100%;
+    @include mq(small) {
+      height: auto;
+    }
 }
 
 /**
