@@ -109,7 +109,8 @@
 	width: 58.33%
 }
 
-@media handheld, only screen and (max-width: 767px) {
+@media only screen
+and (max-width: 767px) {
 	.grid {
 		width: 100%;
 		min-width: 0;
@@ -126,8 +127,6 @@
 		margin-right: 0px;
 		margin-top: 10px;
 		margin-bottom: 10px;
-		padding-left: 20px;
-		padding-right: 20px;
 	}
 
 	img {
