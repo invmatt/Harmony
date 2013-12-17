@@ -2,14 +2,12 @@
 
 <h3>A Lightweight Development Theme for WordPress</h3>
 
-<p>Harmony is a lightweight, style free WordPress theme for developers. It's built using clean semantic HTML5 with no
-additional un-needed markup</p>
+<p>Harmony is a lightweight, minimal style wordpress theme for developers. It's built using clean semantic HTML5 with no additional bloat.</p>
 
-<p>Harmony was developed as many "for developer" clean slate themes always include alot of unnecessary markup, JS
-and custom functions. Harmony does as little as possible and only includes the basics to actually render the site</p>
+<p>Harmony was developed as many developer/clean slate themes included large unnecessary function files, custom content and markup leaving you to spend time stripping out everything you don't need rather than focusing on developing the theme<p>
 
-<p>Harmony does include a very basic SASS framework which handles the reset etc and Custom Meta Boxes, these folders can be
-quickly deleted and replaced with alternatives if required.</p>
+<p>I have included a basic SASS framework and Custom Meta Boxes, the scss folder can be deleted without theme changes, to remove the custom metaboxes remove lines 26-36 from the functions file.</p>
+
 
 <h4>Special thanks to:</h4>
 
