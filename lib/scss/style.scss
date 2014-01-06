@@ -10,20 +10,20 @@ Version: 1.0
 
 $gridsize: 	940px;
 
-$legacy-support-for-ie: true 		!default;
+$legacy-support-for-ie: true        !default;
 $legacy-support-for-mozilla: true 	!default;
 
-$print-stylesheet: true 			!default;
+$print-stylesheet: true             !default;
 
-$gutter: 20px						!default;
+$gutter: 20px                       !default;
 
-$base-font-size: 14 				!default;
+$base-font-size: 14                 !default;
 
 $regular-font-stack: "Helvetica", "Arial", sans-serif;
 $monospace-font-stack: "Consolas", "DejaVu Sans Mono", "Courier", monospace;
 
-@import "helpers/mixins";
 @import "helpers/reset";
+@import "helpers/mixins";
 @import "helpers/spacing-helpers";
 @import "helpers/layout-helpers";
 @import "helpers/block-helpers";
