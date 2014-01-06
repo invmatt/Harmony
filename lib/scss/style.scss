@@ -9,16 +9,15 @@ Version: 1.0
 
 
 $gridsize: 	940px;
+$gutter: 20px                       !default;
 
 $legacy-support-for-ie: true        !default;
 $legacy-support-for-mozilla: true 	!default;
 
+// See partials / _print.scss
 $print-stylesheet: true             !default;
 
-$gutter: 20px                       !default;
-
 $base-font-size: 14                 !default;
-
 $regular-font-stack: "Helvetica", "Arial", sans-serif;
 $monospace-font-stack: "Consolas", "DejaVu Sans Mono", "Courier", monospace;
 
