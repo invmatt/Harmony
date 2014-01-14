@@ -1,13 +1,20 @@
-<img src="http://i.imgur.com/4ZZ4F5u.png" alt="Harmony" /><sup>v1.0.0</sup>
+<img src="http://i.imgur.com/4ZZ4F5u.png" alt="Harmony" />
+<sup>v1.0.0</sup>
 
 <h3>A Lightweight Development Theme for WordPress</h3>
 
-<p>Harmony is a lightweight, minimal style wordpress theme for developers. It's built using clean semantic HTML5 with no additional bloat.</p>
+<p>Harmony is a bare bones developer focused theme which aims to be as minimalistic as possible.</p>
 
-<p>Harmony was developed as many developer/clean slate themes included large unnecessary function files, custom content and markup leaving you to spend time stripping out everything you don't need rather than focusing on developing the theme<p>
+<h4>What's included?</h4>
+<ul>
+  <li>A clean semantic HTML5 base</li>
+  <li>Minimal functions.php file - just enough to make the theme work</li>
+  <li>A stripped back, lightweight SASS framework</li>
+  <li>Custom Meta Boxes</li>
+  <li>Admin theme options base file</li>
+</ul>
 
-<p>I have included a basic SASS framework and Custom Meta Boxes, the scss folder can be deleted without theme changes, to remove the custom metaboxes remove lines 26-36 from the functions file.</p>
-
+<p>Harmony is focused to fit perfectly into your workflow and as such GRUNT and other personal preferences have been left out</p>
 
 <h4>Special thanks to:</h4>
 
