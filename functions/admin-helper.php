@@ -1,7 +1,6 @@
 <?php
 function harmony_admin_head(){
 ?>
-<link rel='stylesheet' id='harmony-admin-css' href='<?php echo HARMONY_THEME_DIR; ?>/functions/css/admin.css' type='text/css' media='all' />
 <link rel='stylesheet' id='harmony-admin-css' href='<?php echo HARMONY_THEME_DIR; ?>/functions/css/checkbox.css' type='text/css' media='all' />
 <link rel='stylesheet' id='harmony-prettyphoto-css' href='<?php echo HARMONY_THEME_DIR; ?>/functions/scripts/prettyPhoto/css/prettyPhoto.css' type='text/css' media='all' />
 
