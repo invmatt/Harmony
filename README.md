@@ -1,7 +1,7 @@
 <img src="http://i.imgur.com/4ZZ4F5u.png" alt="Harmony" />
 
 <h3>A Lightweight Development Theme for WordPress</h3>
-<code>Version: 1.0.0</code>
+<code>Version: 1.0.1</code>
 
 <p>Harmony is a bare bones developer focused theme which aims to be as minimalistic as possible.</p>
 
