@@ -1,8 +1,5 @@
 		<footer class="footer" role="contentinfo">
-
 			<p class="copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
-			<a class="author" href="https://github.com/invmatt/Harmony">Harmony</a>
-
 		</footer>
 
 	</div> <!-- /container -->
@@ -19,6 +16,11 @@
   ga('create', 'UA-XXXXX-X', 'domain.com');
   ga('send', 'pageview');
 </script>
+
+<!--
+	* Harmony | A Theme for Wordpress Developers
+	* http://invmatt.github.io/Harmony
+-->
 
 </body>
 
