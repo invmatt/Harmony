@@ -1,15 +1,11 @@
-<div id="sidebar1" class="sidebar" role="complementary">
+<div class="sidebar widgets" role="complementary">
 
-	<?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
-
-	<?php dynamic_sidebar( 'sidebar1' ); ?>
-
-<?php else : ?>
-
-	<div class="alert alert-help">
-		<p><?php _e( 'Please activate some Widgets.', 'harmony' ); ?></p>
-	</div>
-
-<?php endif; ?>
+	<?php if ( ! dynamic_sidebar( 'sidebar-a' ) ) : ?>
+	
+	    <aside class="widget">
+	        <!-- Add any widgets here -->
+	    </aside>
+	
+	<?php endif; ?>
 
 </div>
