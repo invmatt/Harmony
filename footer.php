@@ -19,7 +19,7 @@
 
 <!--
 	* Harmony | A Theme for Wordpress Developers
-	* http://invmatt.github.io/Harmony
+	* https://github.com/invmatt/Harmony
 -->
 
 </body>
