@@ -21,8 +21,8 @@ $base-font-size: 14                 !default;
 $regular-font-stack: "Helvetica", "Arial", sans-serif;
 $monospace-font-stack: "Consolas", "DejaVu Sans Mono", "Courier", monospace;
 
-@import "helpers/reset";
 @import "helpers/mixins";
+@import "helpers/reset";
 @import "helpers/spacing-helpers";
 @import "helpers/layout-helpers";
 @import "helpers/block-helpers";
