@@ -1,4 +1,4 @@
-<img src="http://i.imgur.com/r0uqKL7.png" alt="Harmony" />
+<h1>Harmony</h1>
 
 <h3>A Lightweight Development Theme for WordPress</h3>
 <code>Version: 1.0.1</code>
