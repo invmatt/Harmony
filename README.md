@@ -15,6 +15,13 @@
 
 <p>Harmony is focused to fit perfectly into your workflow and as such GRUNT and other personal preferences have been left out</p>
 
+<h2>Getting started?</h2>
+<ol>
+  <li>Clone this repo <code>https://github.com/invmatt/Harmony.git</code></li>
+  <li>Compile the initial css (SASS watch/compile style.scss > style.css)</li>
+  <li>Install theme as you normally would</li>
+</ol>
+
 <h2>Updates</h2>
 
 <p>Harmony is a starter theme and as such it's a platform to build upon rather than a "complete" ready to ship theme.</p>
