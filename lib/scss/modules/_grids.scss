@@ -1,6 +1,6 @@
 [class*='col-'] {
 	float: left;
-	padding-right: 20px;
+	padding-right: $gutter;
 }
 
 [class*='col-']:last-of-type,
@@ -23,11 +23,11 @@
 }
 
 .grid-pad {
-	padding: 20px 0 0px 20px;
+	padding: $gutter 0 0px $gutter;
 }
 
 .grid-pad > [class*='col-']:last-of-type {
-	padding-right: 20px;
+	padding-right: $gutter;
 }
 
 .push-right {
