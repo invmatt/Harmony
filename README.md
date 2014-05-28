@@ -13,22 +13,20 @@
   <li>Admin theme options base file</li>
 </ul>
 
-<p>Harmony is focused to fit perfectly into your workflow and as such GRUNT and other personal preferences have been left out</p>
-
-<h2>Getting started?</h2>
+<h2>Getting started:</h2>
 <ol>
   <li>Clone this repo <code>https://github.com/invmatt/Harmony.git</code></li>
-  <li>Compile the initial css (SASS watch/compile style.scss > style.css)</li>
-  <li>Install theme as you normally would</li>
+  <li>Compile/Watch for SASS changes <code>sass --watch lib/sass/style.scss:style.css --style compressed</code></li>
 </ol>
 
-<h2>Updates</h2>
+<h2>Updates:</h2>
+[View updates](https://github.com/invmatt/Harmony/wiki/Future-versions)
 
 <p>Harmony is a starter theme and as such it's a platform to build upon rather than a "complete" ready to ship theme.</p>
 
 <p>Harmony will change, adapt and at times break backwards compatibility, the version number doesn't mean your theme is out of date and as such you shouldn't try to keep up to date, your theme will have evolved to a degree where merging our changes will cause conflicts.</p>
 
-<h2>Special thanks to:</h2>
+<h3>Special thanks to:</h3>
 
 <ul>
   <li><a href="https://github.com/humanmade/Custom-Meta-Boxes">Humanmade</a> for Custom Meta Boxes</li>
