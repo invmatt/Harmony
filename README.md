@@ -20,7 +20,7 @@
 </ol>
 
 <h2>Updates:</h2>
-[View updates](https://github.com/invmatt/Harmony/wiki/Future-versions)
+[View updates](https://github.com/invmatt/Harmony/wiki/Versions)
 
 <p>Harmony is a starter theme and as such it's a platform to build upon rather than a "complete" ready to ship theme.</p>
 
