@@ -17,10 +17,12 @@ $legacy-support-for-mozilla: true 	!default;
 // See partials / _print.scss
 $print-stylesheet: true             !default;
 
-$base-font-size: 14                 !default;
+// Typography
+$base-font-size: 16                 !default;
 $regular-font-stack: "Helvetica", "Arial", sans-serif;
 $monospace-font-stack: "Consolas", "DejaVu Sans Mono", "Courier", monospace;
 
+// Imports
 @import "helpers/mixins";
 @import "helpers/reset";
 @import "helpers/spacing-helpers";
