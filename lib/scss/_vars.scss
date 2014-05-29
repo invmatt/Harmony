@@ -1,0 +1,31 @@
+/**
+ * GRID
+ * Sets the default grid width and gutters
+ */
+ 
+$gridsize: 	1120px;
+$gutter: 20px                       !default;
+
+/**
+ * LEGACY
+ * Adds additional fixes for oldie and oldmoz
+ */
+
+$legacy-support-for-ie: true        !default;
+$legacy-support-for-mozilla: true   !default;
+
+/**
+ * PRINT
+ * Basic print stylesheet (see partials/_print.scss)
+ */
+ 
+$print-stylesheet: true             !default;
+
+/**
+ * TYPOGRAPHY
+ * Sets base font size, family etc
+ */
+ 
+$base-font-size: 16                 !default;
+$regular-font-stack:                "Helvetica", "Arial", sans-serif;
+$monospace-font-stack:              "Consolas", "DejaVu Sans Mono", "Courier", monospace;
