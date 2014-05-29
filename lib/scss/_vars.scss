@@ -6,6 +6,9 @@
 $gridsize: 	1120px;
 $gutter: 20px                       !default;
 
+
+
+
 /**
  * LEGACY
  * Adds additional fixes for oldie and oldmoz
@@ -14,6 +17,9 @@ $gutter: 20px                       !default;
 $legacy-support-for-ie: true        !default;
 $legacy-support-for-mozilla: true   !default;
 
+
+
+
 /**
  * PRINT
  * Basic print stylesheet (see partials/_print.scss)
@@ -21,11 +27,19 @@ $legacy-support-for-mozilla: true   !default;
  
 $print-stylesheet: true             !default;
 
+
+
+
 /**
  * TYPOGRAPHY
  * Sets base font size, family etc
  */
- 
+
 $base-font-size: 16                 !default;
-$regular-font-stack:                "Helvetica", "Arial", sans-serif;
-$monospace-font-stack:              "Consolas", "DejaVu Sans Mono", "Courier", monospace;
+$headings-size: 32 28 24 20 18 16;  !default;
+
+$monospace-font-stack: "Consolas", "DejaVu Sans Mono", "Courier", monospace;
+$regular-font-stack:  FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
+
+
+
