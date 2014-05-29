@@ -37,8 +37,6 @@ caption, figure {
   margin: .75em 0 0;
 }
 
-$headings-size: 32 28 24 20 18 16;
-
 @for $i from 1 through length($headings-size) {
   $selector    : "h#{$i}, .h#{$i}-like";
   $visual      : nth($headings-size, $i);
