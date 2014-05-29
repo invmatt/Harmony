@@ -3,8 +3,8 @@
  * Sets the default grid width and gutters
  */
  
-$gridsize: 	1120px;
-$gutter: 20px                       !default;
+$gutter: 20px;
+$gridsize: 1120px;
 
 
 
@@ -36,7 +36,7 @@ $print-stylesheet: true             !default;
  */
 
 $base-font-size: 16                 !default;
-$headings-size: 32 28 24 20 18 16;  !default;
+$headings-size: 32 28 24 20 18 16   !default;
 
 $monospace-font-stack: "Consolas", "DejaVu Sans Mono", "Courier", monospace;
 $regular-font-stack:  FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
