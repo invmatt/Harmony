@@ -4,31 +4,20 @@ Theme URI: https://github.com/invmatt/Harmony
 Description: Clean, Modern Framework for Wordpress Developers
 Author: Invinta
 Author URI: https://github.com/invmatt
-Version: 1.0.1
+Version: 1.0.2
 */
 
+// DEFAULT
+@import "vars";
 
-$gridsize: 	1120px;
-$gutter: 20px                       !default;
-
-$legacy-support-for-ie: true        !default;
-$legacy-support-for-mozilla: true   !default;
-
-// See partials / _print.scss
-$print-stylesheet: true             !default;
-
-// Typography
-$base-font-size: 16                 !default;
-$regular-font-stack: "Helvetica", "Arial", sans-serif;
-$monospace-font-stack: "Consolas", "DejaVu Sans Mono", "Courier", monospace;
-
-// Imports
+// HELPERS
 @import "helpers/mixins";
 @import "helpers/reset";
 @import "helpers/spacing-helpers";
 @import "helpers/layout-helpers";
 @import "helpers/block-helpers";
 
+// MODULES
 @import "modules/grids";
 @import "modules/tables";
 @import "modules/forms";
@@ -38,6 +27,7 @@ $monospace-font-stack: "Consolas", "DejaVu Sans Mono", "Courier", monospace;
 @import "modules/flexbox";
 @import "modules/typography";
 
+// PARTIALS
 @import "partials/iefix";
 @import "partials/print";
 
