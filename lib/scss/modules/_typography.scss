@@ -16,11 +16,11 @@ html {
 }
 
 /**
- * 1. Put the base font-size at 14px
+ * 1. Put the base font-size at 16px
  */
 body {
   @include rem($base-font-size); /* 1 */
-  background: white;
+  background: #fff;
 }
 
 /**
