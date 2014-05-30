@@ -3,8 +3,13 @@
  * Enable/Disable parts of the CSS framework
  */
  
-$enable-block-helpers:    true;
-$enable-spacing-helpers:  true;
+$print-stylesheet:           true;
+ 
+$enable-block-helpers:       true;
+$enable-spacing-helpers:     true;
+
+$legacy-support-for-ie:      true;
+$legacy-support-for-mozilla: true;
 
 
 
@@ -16,27 +21,6 @@ $enable-spacing-helpers:  true;
  
 $gutter:    20px;
 $gridsize:  1120px;
-
-
-
-
-/**
- * LEGACY
- * Adds additional fixes for oldie and oldmoz
- */
-
-$legacy-support-for-ie:      true;
-$legacy-support-for-mozilla: true;
-
-
-
-
-/**
- * PRINT
- * Basic print stylesheet (see partials/_print.scss)
- */
- 
-$print-stylesheet: true             !default;
 
 
 
