@@ -3,13 +3,15 @@
  * Enable/Disable parts of the CSS framework
  */
  
-$print-stylesheet:           true;
+$print-stylesheet:                true;
  
-$enable-block-helpers:       true;
-$enable-spacing-helpers:     true;
+$enable-block-helpers:            true;
+$enable-spacing-helpers:          true;
 
-$legacy-support-for-ie:      true;
-$legacy-support-for-mozilla: true;
+$legacy-support-for-ie:           true;
+$legacy-support-for-mozilla:      true;
+
+$enable-icon-classes:             true;
 
 
 
