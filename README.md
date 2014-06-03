@@ -32,3 +32,7 @@
   <li><a href="https://github.com/humanmade/Custom-Meta-Boxes">Humanmade</a> for Custom Meta Boxes</li>
   <li><a href="https://github.com/HugoGiraudel/KNACSS-Sass">Hugo Giraudel</a> for the SASS version of <a href="http://www.knacss.com">KNACSS</a></li>
 </ul>
+
+<h3>Additional:</h3>
+
+[Rapport](https://github.com/invmatt/Rapport) - CSS Framework taken from Harmony - includes more "style" elements for faster prototyping. As this goes against Harmonys goals a seperate repository was created.
