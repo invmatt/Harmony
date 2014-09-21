@@ -1,6 +1,6 @@
 <h1>Harmony</h1>
 
-<code>Version: 1.0.2</code>
+<code>Version: 1.0.3</code>
 
 <p>Harmony is a bare bones developer focused theme which aims to be as minimalistic as possible.</p>
 
