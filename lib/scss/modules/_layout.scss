@@ -2,14 +2,9 @@
  * Layout                     *
 \*----------------------------*/
 
-/**
- * Switching box-model for all elements
- * 1. ...and pseudo-elements 
- */
-*, 
-*:after, /* 1 */
-*:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+html {
   box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
