@@ -2,6 +2,9 @@
 
 <code>Version: 1.0.3</code>
 
+<h2>Update</h2>
+<p>This theme is no longer actively maintained. Pull requests are still welcomed though.</p> 
+
 <p>Harmony is a bare bones developer focused theme which aims to be as minimalistic as possible.</p>
 
 <h2>What's included?</h2>
